@@ -1,5 +1,6 @@
 from collections import namedtuple
-Example = namedtuple('Example', ['a', 'b'])
-example = Example('hing', 'nother hing')
+Example = namedtuple('Example', ['a', 'c', 'b'])
+example = Example('hing', 'yet another hing', 'nother hing')
 print("A: " + example.a)
 print("B: " + example.b)
+print("C: " + example.c)
