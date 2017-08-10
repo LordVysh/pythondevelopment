@@ -7,3 +7,5 @@ def printAny(*what):
 
 printAny("Printing with three arguments:", "This thing", "Another thing")
 printAny("Only printing this")
+
+#Unnecessary comment to test git scripts
